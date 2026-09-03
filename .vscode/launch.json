@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Python: Run Bharat F1 Flask App",
+            "program": "${workspaceFolder}/app.py",
+            "jinja": true,
+            "justMyCode": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against Bharat F1 (port 5000)",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}/static"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Bharat F1: Full Stack (Flask + Chrome)",
+            "configurations": [
+                "Python: Run Bharat F1 Flask App",
+                "Launch Chrome against Bharat F1 (port 5000)"
+            ]
+        }
+    ]
+}

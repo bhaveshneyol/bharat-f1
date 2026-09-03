@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+*.db
+*.db-journal
+.DS_Store

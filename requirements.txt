@@ -1,0 +1,4 @@
+flask==3.0.3
+flask-cors==4.0.1
+pyjwt==2.8.0
+bcrypt==4.1.3
