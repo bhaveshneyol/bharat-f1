@@ -276,5 +276,7 @@ def index():
 
 if __name__ == "__main__":
     init_db()
-    print("[SERVER] Bharat F1 running at http://localhost:5000")
-    app.run(debug=True, port=5000)
+    print("[SERVER] Bharat F1 running:")
+    print("  👉 http://127.0.0.1:5000 (Direct IPv4 - Recommended)")
+    print("  👉 http://localhost:5000")
+    app.run(debug=True, host="0.0.0.0", port=5000)
